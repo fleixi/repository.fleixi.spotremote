@@ -9,7 +9,6 @@
         <datadir>https://github.com/fleixi/repository.fleixi.spotremote/raw/master/zips</datadir>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <language>de_DE en_GB</language>
         <platform>linux</platform>
         <source>https://github.com/fleixi/repository.fleixi.spotremote</source>
         <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>

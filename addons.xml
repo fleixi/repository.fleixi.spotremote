@@ -8,7 +8,6 @@
         <provides>audio</provides>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <language>de_DE en_GB</language>
         <platform>linux</platform>
         <source>https://github.com/fleixi/plugin.audio.spotremote</source>
         <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
@@ -22,7 +21,6 @@
   </requires>
   <extension library="service.py" point="xbmc.service" start="login" />
   <extension point="xbmc.addon.metadata">
-        <language>de_De en_GB</language>
         <platform>linux</platform>
         <source>https://github.com/fleixi/service.audio.spotremote</source>
         <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
@@ -36,7 +34,6 @@
         <datadir>https://github.com/fleixi/repository.fleixi.spotremote/raw/master/zips</datadir>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <language>de_DE en_GB</language>
         <platform>linux</platform>
         <source>https://github.com/fleixi/repository.fleixi.spotremote</source>
         <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
