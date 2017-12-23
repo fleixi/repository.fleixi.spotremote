@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<addons><addon id="plugin.audio.spotremote" name="Spotremote" provider-name="fleixi" version="0.9.1">
+    <requires>
+        <import addon="xbmc.python" version="2.20.0" />
+        <import addon="service.audio.spotremote" version="0.9.1" />
+    </requires>
+    <extension library="default.py" point="xbmc.python.pluginsource">
+        <provides>audio</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <language>de_DE en_GB</language>
+        <platform>linux</platform>
+        <source>https://github.com/fleixi/plugin.audio.spotremote</source>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <summary lang="en_GB">Addon to remotely control a running Spotify-Client.</summary>
+        <summary lang="de_DE">Erweiterung um einen laufenden Spotify-Client zu kontrollieren.</summary>
+    </extension>
+</addon><addon id="service.audio.spotremote" name="Spotremote service" provider-name="fleixi" version="0.9.1">
+  <requires>
+    <import addon="xbmc.python" version="2.20.0" />
+    <import addon="plugin.audio.spotremote" version="0.9.1" />
+  </requires>
+  <extension library="service.py" point="xbmc.service" start="login" />
+  <extension point="xbmc.addon.metadata">
+        <language>de_De en_GB</language>
+        <platform>linux</platform>
+        <source>https://github.com/fleixi/service.audio.spotremote</source>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <summary lang="en_GB">Service to automatic start Spotremote addon if Spotify is playing.</summary>
+        <summary lang="de_DE">Dienst um Spoteremote automatisch zu starten wenn Spotify spielt.</summary>
+    </extension>
+</addon></addons>
